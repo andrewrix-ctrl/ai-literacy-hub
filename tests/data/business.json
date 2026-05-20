@@ -1,0 +1,229 @@
+{
+  "slug": "business",
+  "title": "Business / Corporate Professional",
+  "emoji": "💼",
+  "audience": "Finance, HR, procurement, sales, and corporate services roles.",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is a primary business value proposition of AI implementation?",
+      "options": [
+        "To improve the appearance and presentation of workplace computer systems within the same business adoption context.",
+        "To remove every human role from the organisation as quickly as possible.",
+        "To automate repetitive tasks, enhance decision-making, and improve efficiency.",
+        "To focus mainly on producing creative images, text, music, or artwork."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 2,
+      "text": "For a corporate professional, what does \"AI automation\" primarily aim to achieve?",
+      "options": [
+        "To standardise document templates and admin materials without changing workflows within the same business adoption context.",
+        "To remove human interaction from business processes wherever a tool can respond.",
+        "To streamline repetitive business processes, freeing up human staff for more complex tasks.",
+        "To add additional workflow steps without improving quality, speed, or control."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 3,
+      "text": "In a sales context, how might an AI tool be used to enhance productivity?",
+      "options": [
+        "By removing the sales team from lead generation, outreach, and customer follow-up when planning enterprise change and benefits.",
+        "By generating generic outreach activity without using account or customer context.",
+        "By analyzing customer data to identify leads, personalize recommendations, or automate routine communications.",
+        "By focusing only on payment processing and financial transaction handling for measurable value in operational workflows."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "What does \"customer experience\" (CX) mean in relation to AI-powered services?",
+      "options": [
+        "The AI system's internal processing speed and technical response time.",
+        "The AI's ability to remember customer names.",
+        "How customers perceive and interact with an organization's AI-enabled products or services.",
+        "The total cost of procuring, integrating, and operating the AI solution."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 5,
+      "text": "Which of these is a common AI application in Human Resources (HR)?",
+      "options": [
+        "Managing routine employee preferences and schedules rather than talent decisions.",
+        "Automatically designing office layouts and seating plans for the workplace.",
+        "Automating resume screening, personalizing learning paths, or predicting employee turnover.",
+        "Generating company policies without legal, HR, or leadership review as part of commercial AI transformation."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 6,
+      "text": "What is the objective of conducting a \"Return on Investment\" (ROI) analysis for an AI project?",
+      "options": [
+        "To compare historical AI tools rather than quantify project benefits and costs.",
+        "To measure how much data the AI consumes during training and operation when planning enterprise change and benefits.",
+        "To quantify the financial benefits (returns) against the costs of developing and deploying the AI solution.",
+        "To determine whether the AI appears enthusiastic about assigned work when assessing business impact and adoption."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "text": "In finance, how might AI contribute to fraud detection?",
+      "options": [
+        "By blocking every unusual transaction before risk teams assess the evidence.",
+        "By automating every financial report without human review or control checks.",
+        "By analyzing transaction patterns and anomalies to identify and flag suspicious activities.",
+        "By generating new financial products instead of identifying suspicious activity within the same business adoption context."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 8,
+      "text": "What is a \"use case\" in AI development from a business perspective?",
+      "options": [
+        "The legal rationale used to justify adopting AI for a particular process as part of commercial AI transformation.",
+        "The physical hardware case or server enclosure used to host AI workloads when assessing business impact and adoption.",
+        "A specific scenario or problem where AI technology can be applied to deliver business value.",
+        "A training dataset prepared for one specific model development activity when planning enterprise change and benefits."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 9,
+      "text": "What does \"AI-driven personalization\" typically enable in marketing and sales?",
+      "options": [
+        "Making every marketing message identical across channels and customer groups when assessing business impact and adoption within the same business adoption context.",
+        "Automated communication using one generic script for all customer segments for measurable value in operational workflows.",
+        "Customizing content, product recommendations, and offers for individual customers based on their behavior and preferences.",
+        "Reducing the total number of campaigns without improving relevance or timing as part of commercial AI transformation."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 10,
+      "text": "In procurement, how can AI be leveraged for \"supplier risk assessment\"?",
+      "options": [
+        "By predicting employee turnover using HR data rather than supplier signals for measurable value in operational workflows within the same business adoption context.",
+        "By analyzing supplier data, news, and market trends to predict potential risks (e.g., financial instability, supply chain disruptions).",
+        "By changing suppliers automatically each month without procurement review as part of commercial AI transformation.",
+        "By replacing procurement officers instead of improving supplier risk insight when assessing business impact and adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "What is \"predictive analytics\" in a business context, especially when powered by AI?",
+      "options": [
+        "Manually forecasting future events based on expert opinion when planning enterprise change and benefits within the same business adoption context.",
+        "Real-time monitoring of current business operations as part of commercial AI transformation.",
+        "Using historical data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes or trends.",
+        "Analyzing historical data to understand past events for measurable value in operational workflows."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 12,
+      "text": "From a corporate services perspective, what is the value of AI in \"knowledge management\"?",
+      "options": [
+        "AI creates new documents without connecting them to verified internal sources.",
+        "AI is used solely to restrict access to information when assessing business impact and adoption within the same business adoption context.",
+        "AI can organize, search, and extract insights from vast amounts of internal documents and data, making information more accessible to employees.",
+        "AI replaces the need for human experts when planning enterprise change and benefits."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 13,
+      "text": "What is \"digital transformation\" in the context of integrating AI into an enterprise?",
+      "options": [
+        "Converting physical documents to digital format when assessing business impact and adoption within the same business adoption context.",
+        "Automating basic IT support tasks for measurable value in operational workflows.",
+        "The fundamental change in how an organization operates and delivers value, leveraging digital technologies including AI, to improve performance or reach.",
+        "Purchasing AI tools without redesigning processes, data, governance, or adoption."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 14,
+      "text": "What is a \"minimum viable product\" (MVP) approach in testing new AI-powered business solutions?",
+      "options": [
+        "A product designed to have minimal impact on the market for measurable value in operational workflows.",
+        "Launching a fully-featured AI product to all customers simultaneously when planning enterprise change and benefits within the same business adoption context.",
+        "Releasing a new AI solution with just enough features to satisfy early adopters and gather feedback for future iterations.",
+        "A product that uses the smallest possible AI model when assessing business impact and adoption."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 15,
+      "text": "Which of these is a key factor in assessing \"vendor lock-in risk\" when adopting a proprietary AI platform?",
+      "options": [
+        "The size of the vendor's AI development team when planning enterprise change and benefits.",
+        "The responsiveness of the vendor's technical support as part of commercial AI transformation within the same business adoption context.",
+        "The difficulty and cost associated with switching to an alternative AI platform or bringing the AI solution in-house.",
+        "The vendor's marketing slogans for measurable value in operational workflows."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 16,
+      "text": "How can AI support \"scenario planning\" and strategic forecasting for executive leadership?",
+      "options": [
+        "By producing one confident forecast without exploring assumptions or alternatives.",
+        "By automating the creation of executive presentations when assessing business impact and adoption within the same business adoption context.",
+        "By analyzing complex datasets to generate plausible future scenarios, assess potential impacts, and inform strategic decisions.",
+        "By creating immersive simulations without grounding assumptions in business data."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 17,
+      "text": "What is \"AI explainability\" (XAI) primarily valuable for in high-stakes corporate decision-making (e.g., loan applications, medical diagnosis)?",
+      "options": [
+        "To reduce the computational resources needed by the AI when assessing business impact and adoption within the same business adoption context.",
+        "To make the AI model faster for measurable value in operational workflows.",
+        "To provide transparency and justification for AI decisions, which is critical for trust, regulatory compliance, and managing legal or reputational risk.",
+        "To help the AI learn new information faster as part of commercial AI transformation."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 18,
+      "text": "In the context of competitive advantage, what does \"AI-driven market segmentation\" allow businesses to do?",
+      "options": [
+        "To remove marketing judgement rather than improve targeting and segmentation.",
+        "To divide the market into segments that only AI can understand when planning enterprise change and benefits within the same business adoption context.",
+        "To identify distinct groups of customers based on AI-analyzed behavioral, demographic, or psychographic data for highly targeted strategies.",
+        "To enter completely new markets without any human research when assessing business impact and adoption."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "text": "What is a \"digital twin\" in the context of AI and operational optimization in a corporate setting?",
+      "options": [
+        "Two identical AI models running side-by-side when planning enterprise change and benefits.",
+        "An AI system that can read and write digital documents as part of commercial AI transformation within the same business adoption context.",
+        "A virtual representation of a physical object, system, or process that uses real-time data and AI to simulate, monitor, and optimize its real-world counterpart.",
+        "A backup copy of all corporate data for measurable value in operational workflows."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 20,
+      "text": "Which of these is a key consideration for a Chief Financial Officer (CFO) when evaluating large-scale AI investments?",
+      "options": [
+        "The visual polish of AI-generated assets rather than investment performance.",
+        "The vendor reputation in public channels rather than measurable financial value.",
+        "Clear ROI projections, cost-benefit analysis, risk assessment (e.g., implementation, ethical, security), and alignment with long-term financial strategy.",
+        "The number of AI algorithms a solution utilizes when planning enterprise change and benefits within the same business adoption context."
+      ],
+      "answerIndex": 2
+    }
+  ]
+}

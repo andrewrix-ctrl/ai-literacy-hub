@@ -1,0 +1,229 @@
+{
+  "slug": "architect",
+  "title": "Architect / Designer",
+  "emoji": "🏗️",
+  "audience": "Enterprise, solution, security and systems architecture roles.",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "When designing a system that uses AI, what is \"technical debt\" typically referring to?",
+      "options": [
+        "Deferred licensing and platform costs created during AI implementation planning when planning enterprise AI architecture.",
+        "Design or implementation choices that are expedient in the short term but create future rework or quality issues.",
+        "Formal finance arrangements used to fund experimental AI research programs for reliable production AI delivery.",
+        "The training process used to tune model behaviour before production use when integrating AI services across platforms."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "What is the role of a \"Proof of Concept\" (PoC) in an AI project's design phase?",
+      "options": [
+        "To release the complete AI solution to every production user immediately during solution design and governance review.",
+        "To demonstrate the feasibility and potential of a specific AI idea or technology on a small scale.",
+        "To produce the full operating documentation before design decisions are tested when integrating AI services across platforms.",
+        "To obtain full program funding before validating technical and business feasibility."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "In AI system design, what is \"scalability\"?",
+      "options": [
+        "A measurement process for comparing the size of different deployed AI models for reliable production AI delivery.",
+        "The ability of a system to handle increasing workloads, users, or data volumes without significant performance loss.",
+        "A process for checking AI models and endpoints for security vulnerabilities when planning enterprise AI architecture.",
+        "The ease of creating visual screens and diagrams for an AI-enabled service during solution design and governance review."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "What is a \"monolithic architecture\" versus a \"microservices architecture\" in the context of AI application deployment?",
+      "options": [
+        "Monolithic architectures are always preferred because AI services require one application when integrating AI services across platforms.",
+        "Monolithic means a single, tightly coupled application; microservices means breaking it into smaller, independent services.",
+        "Monolithic systems use earlier model types while microservices use newer model types during solution design and governance review.",
+        "Monolithic deployment is limited to on-premise systems while microservices require cloud for reliable production AI delivery."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 5,
+      "text": "When designing an AI solution, what is \"interoperability\"?",
+      "options": [
+        "The ability of an AI system to operate only with one vendor ecosystem when planning enterprise AI architecture.",
+        "The capability of different AI components or systems to work together and exchange information effectively.",
+        "The response speed of an AI model when handling user requests at runtime for reliable production AI delivery.",
+        "The process of designing a model's internal algorithmic approach when integrating AI services across platforms."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "Which of these is a key consideration for a solution architect integrating a third-party AI service?",
+      "options": [
+        "The visual branding and interface style of the selected AI service provider.",
+        "Data privacy, security, API documentation, and service reliability.",
+        "The personal preferences and working habits of the vendor development team.",
+        "The size of the vendor engineering team assigned to the AI service."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 7,
+      "text": "What is a \"design pattern\" in software engineering, and why might it be relevant for AI solution design?",
+      "options": [
+        "A specific algorithm used to generate designs or user-interface layouts for reliable production AI delivery.",
+        "A reusable solution to commonly occurring problems in software design, which can offer proven AI integration strategies.",
+        "A visual diagramming tool for drafting high-level AI model concepts when planning enterprise AI architecture.",
+        "A mandatory documentation template applied to every AI project regardless of context during solution design and governance review."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "When designing an AI application, what is a \"data contract\" (or data schema agreement) between systems?",
+      "options": [
+        "A legal agreement governing data sharing between two companies when integrating AI services across platforms.",
+        "A formal agreement defining the structure, format, and meaning of data exchanged between different components or services.",
+        "A security control for encrypting AI data while it moves between systems during solution design and governance review within the same architecture decision context.",
+        "A document describing the visual layout of a database or reporting screen for reliable production AI delivery."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 9,
+      "text": "What is the difference between \"model inference\" and \"model training\" from an architectural perspective?",
+      "options": [
+        "Inference always uses GPUs while training always relies on CPUs when planning enterprise AI architecture.",
+        "Inference is using a trained model to make predictions; training is the process of teaching the model from data. These often have different hardware/scalability needs.",
+        "Inference is used only for small models while training is reserved for large models for reliable production AI delivery.",
+        "Inference takes place before deployment while training only happens after release when integrating AI services across platforms within the same architecture decision context."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "In the context of AI governance design, what is a \"model card\"?",
+      "options": [
+        "A payment card used to fund AI services and cloud model usage during solution design and governance review.",
+        "A short document accompanying an AI model, providing details on its performance, usage, limitations, and ethical considerations.",
+        "A physical inventory card showing the deployed model version number when integrating AI services across platforms within the same architecture decision context.",
+        "A storage component that holds model weights for later deployment when planning enterprise AI architecture."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "When designing an AI deployment strategy, what is the role of a \"feature store\"?",
+      "options": [
+        "A marketplace where teams can publish, purchase, and reuse AI models for reliable production AI delivery.",
+        "A centralized system for managing, serving, and sharing engineered features consistently across model training and inference.",
+        "A database dedicated to storing raw data before feature engineering when planning enterprise AI architecture.",
+        "A reporting tool used to visualise which features influenced predictions during solution design and governance review within the same architecture decision context."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 12,
+      "text": "What does \"container orchestration\" (e.g., Kubernetes) provide for deploying AI models?",
+      "options": [
+        "A scoring method for arranging AI-generated music into production tracks when integrating AI services across platforms within the same architecture decision context.",
+        "Automation for deploying, scaling, and managing containerized applications (including AI models) across clusters of machines.",
+        "A security method for encrypting data stored inside container images during solution design and governance review.",
+        "A design tool for building graphical user interfaces around AI services for reliable production AI delivery."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 13,
+      "text": "In the design of an AI-powered product, what is a \"feedback loop\"?",
+      "options": [
+        "A recurring software defect that appears repeatedly in the AI application code when planning enterprise AI architecture.",
+        "A mechanism to capture user interactions or real-world outcomes to continuously improve the AI model over time.",
+        "A communication layer that lets multiple AI models exchange messages for reliable production AI delivery.",
+        "A workflow component that causes a model to repeat a task until stopped when integrating AI services across platforms."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "text": "What is \"data lineage\" and why is it important in complex AI data architectures?",
+      "options": [
+        "Tracking the organisational history of the developers who built the AI model during solution design and governance review within the same architecture decision context.",
+        "Tracing the flow of data from its source through various transformations to its use in AI models, crucial for data governance and debugging.",
+        "A performance optimisation method for reducing model training time when integrating AI services across platforms.",
+        "A classification method for grouping datasets by type, owner, or domain when planning enterprise AI architecture."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "Which architectural pattern is often preferred for highly scalable and responsive AI inference services?",
+      "options": [
+        "Nightly batch processing where predictions are produced after daily jobs finish.",
+        "Real-time, event-driven microservices with serverless functions or containerized endpoints.",
+        "A single monolithic application deployed to one fixed on-premise server when planning enterprise AI architecture.",
+        "Manual release and scaling work performed by operations teams on request during solution design and governance review."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "Why are \"adversarial examples\" a significant concern for security architects when designing AI systems?",
+      "options": [
+        "They reduce runtime performance by forcing models to process more complex inputs when integrating AI services across platforms within the same architecture decision context.",
+        "They are subtly manipulated inputs that cause AI models to make incorrect predictions, posing security risks in critical systems.",
+        "They describe AI systems that deliberately become hostile toward end users during solution design and governance review.",
+        "They are ordinary training errors caused by incomplete or poor-quality datasets for reliable production AI delivery."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 17,
+      "text": "When designing an AI system, what is the significance of a \"service mesh\" like Istio or Linkerd?",
+      "options": [
+        "To manage model weight files during distributed deep learning training when planning enterprise AI architecture.",
+        "To provide advanced traffic management, observability, and security features for microservices, including AI endpoints.",
+        "To create a dedicated network where AI models communicate directly for reliable production AI delivery.",
+        "To package and deploy AI models to edge devices with less overhead when integrating AI services across platforms within the same architecture decision context."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "text": "In the context of data pipelines for AI, what is a \"data lakehouse\" architecture?",
+      "options": [
+        "A specialised database intended only for storing AI model artefacts during solution design and governance review.",
+        "A hybrid data architecture that combines the flexibility of data lakes with the data management features of data warehouses.",
+        "A streaming platform for moving IoT data into analytics systems in real time when integrating AI services across platforms within the same architecture decision context.",
+        "A graphical interface for exploring and visualising large datasets when planning enterprise AI architecture."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 19,
+      "text": "What is \"model quantization\" in AI deployment?",
+      "options": [
+        "Splitting a large AI model into smaller components for easier deployment for reliable production AI delivery.",
+        "A technique to reduce the precision of numerical representations (e.g., from 32-bit to 8-bit floats) in AI models to optimize for inference speed and memory.",
+        "A security method for preventing unauthorised access to deployed AI models when planning enterprise AI architecture within the same architecture decision context.",
+        "Adding extra layers to a neural network to increase model capacity during solution design and governance review."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "Which of these is a core responsibility of an Enterprise Architect in driving AI adoption across an organization?",
+      "options": [
+        "Building separate AI models directly for each individual business unit when integrating AI services across platforms within the same architecture decision context.",
+        "Defining AI strategy, establishing architectural principles, identifying common platforms, and ensuring alignment with overall enterprise objectives.",
+        "Manually cleaning every dataset before it is used in model training during solution design and governance review.",
+        "Personally approving and managing every budget for individual AI projects for reliable production AI delivery."
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

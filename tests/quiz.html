@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Literacy Quiz | AI Literacy Hub</title>
+  <link rel="stylesheet" href="/ai-literacy-hub/assets/site.css" />
+  <link rel="stylesheet" href="/ai-literacy-hub/tests/assets/hub.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/ai-literacy-hub/">AI Literacy Hub</a>
+    <nav aria-label="Primary navigation">
+      <a href="/ai-literacy-hub/tests/">Literacy Tests</a>
+      <a href="/ai-literacy-hub/prompt-library/">Prompt Library</a>
+    </nav>
+  </header>
+
+  <main class="container ai-hub-wrap">
+    <a class="back-link" href="/ai-literacy-hub/tests/">Back to AI Literacy Tests</a>
+
+    <section class="quiz-header">
+      <h1 id="quizTitle">Loading...</h1>
+      <p id="quizAudience"></p>
+      <div class="progress-wrap">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <p id="qCount" class="muted"></p>
+    </section>
+
+    <section id="quizCard" class="quiz-card" style="display:none;">
+      <h2 id="qText"></h2>
+      <p id="difficultyTag" class="difficulty-tag"></p>
+      <div id="options" class="options"></div>
+      <div class="quiz-actions">
+        <button id="submitBtn" class="btn">Submit answer</button>
+        <button id="nextBtn" class="btn" style="display:none;">Next question</button>
+      </div>
+      <p id="feedback" class="feedback" style="display:none;"></p>
+    </section>
+
+    <section id="resultCard" class="quiz-card" style="display:none;">
+      <h2>Results</h2>
+      <p id="scoreText"></p>
+      <p id="gradeText" class="grade-pill"></p>
+      <div class="quiz-actions" style="margin-top:.4rem;">
+        <button id="downloadCertBtn" class="btn">Download certificate</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Difficulty</th><th>Your answer</th><th>Correct answer</th><th>Status</th></tr></thead>
+          <tbody id="summaryBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="/ai-literacy-hub/tests/assets/quiz.js"></script>
+</body>
+</html>

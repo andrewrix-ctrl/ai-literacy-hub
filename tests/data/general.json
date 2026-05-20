@@ -1,0 +1,229 @@
+{
+  "slug": "general",
+  "title": "General AI Literacy",
+  "emoji": "🌐",
+  "audience": "Anyone who wants a solid practical understanding of AI at work.",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is the clearest definition of AI in a workplace context?",
+      "options": [
+        "Software that performs tasks using patterns, prediction, or language reasoning.",
+        "Software hosted in the cloud with dashboards and automated notifications.",
+        "A robot or script that removes people from every operational workflow.",
+        "A spreadsheet tool that runs macros and stores business calculations."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 2,
+      "text": "What does a large language model (LLM) primarily do?",
+      "options": [
+        "Indexes company files so they can be retained and retrieved on request.",
+        "Predicts likely token sequences to produce or transform language.",
+        "Checks every answer against verified databases before responding.",
+        "Encrypts network traffic between browsers, servers, and APIs."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "What is a hallucination in AI output?",
+      "options": [
+        "A deliberately deceptive answer generated after the system detects risk.",
+        "A response where sentence structure is broken but the facts are reliable.",
+        "A fluent response that includes incorrect or unsupported claims.",
+        "A delayed response caused by network latency or overloaded servers."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 4,
+      "text": "Which prompt usually improves response quality most?",
+      "options": [
+        "Do this task quickly and make the answer useful for whoever reads it.",
+        "Write a useful summary of the content and keep the wording professional.",
+        "You know the general idea, so make reasonable assumptions and continue.",
+        "Act as a project analyst; give 5 executive bullets with risks and actions."
+      ],
+      "answerIndex": 3
+    },
+    {
+      "id": 5,
+      "text": "What is the best first step before using AI output in a real decision?",
+      "options": [
+        "Publish it as-is once the answer sounds confident and well structured.",
+        "Check the key facts, assumptions, sources, and decision impact.",
+        "Translate the response into a second language to reveal inconsistencies.",
+        "Improve formatting and tone before sharing it with decision makers."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "Which is safest to avoid sharing in public AI tools unless approved?",
+      "options": [
+        "Personal, customer, or confidential company information.",
+        "Public product descriptions already approved for external use.",
+        "Published blog text copied from the organisation's website.",
+        "Generic meeting agenda templates with no sensitive details."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 7,
+      "text": "What does 'human-in-the-loop' mean?",
+      "options": [
+        "A person writes all AI-assisted content manually from start to finish.",
+        "A person reviews or approves outputs at defined control points.",
+        "People are removed once the AI workflow reaches production use.",
+        "Only managers can operate the tool or approve generated prompts."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "Which use case is usually low risk and high value to start with?",
+      "options": [
+        "Automating legal sign-off with no human review or escalation path.",
+        "Diagnosing medical conditions for customers without clinician review.",
+        "Drafting summaries, emails, and first-pass working documents.",
+        "Approving supplier payments end-to-end without business controls."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 9,
+      "text": "What is a practical way to reduce hallucinations?",
+      "options": [
+        "Ask for structured output and require evidence or sources where possible.",
+        "Use all-caps instructions so the model treats the request as urgent.",
+        "Always make prompts longer, even when the extra detail is irrelevant.",
+        "Turn off spelling checks so the model focuses only on factual content."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 10,
+      "text": "Why is prompt context important?",
+      "options": [
+        "It lets the model use cheaper infrastructure for routine workplace tasks.",
+        "It gives the model the audience, intent, constraints, and success criteria.",
+        "It permanently updates the model's training data after every request.",
+        "It automatically converts every answer into valid JSON or spreadsheet data."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "What is a sign an AI workflow needs governance?",
+      "options": [
+        "It influences financial, legal, customer, safety, or policy outcomes.",
+        "It produces polished charts that senior stakeholders may want to reuse.",
+        "It responds quickly enough to be embedded into a daily team routine.",
+        "It includes keyboard shortcuts or templates that make prompts faster."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 12,
+      "text": "Which metric matters most for business AI adoption?",
+      "options": [
+        "Total prompt volume across users, teams, tools, and departments.",
+        "How often AI is discussed in leadership forums and project meetings.",
+        "Measurable outcome improvement in quality, speed, risk, or cost.",
+        "Number of AI tools licensed, installed, configured, and promoted."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 13,
+      "text": "What is retrieval-augmented generation (RAG) designed to do?",
+      "options": [
+        "Retrieve relevant source material before generating a grounded answer.",
+        "Replace document platforms by storing every file inside the language model.",
+        "Increase randomness so repeated prompts produce more varied responses.",
+        "Hide model limits by making the generated response sound more confident."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 14,
+      "text": "In practical terms, what is model drift?",
+      "options": [
+        "When a deployed model is moved between folders, tenants, or cloud regions.",
+        "When performance degrades as real-world data or context changes.",
+        "When user writing styles change and prompts become less consistent.",
+        "When prompts are too short to include role, task, and output details."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "Which is the best way to use AI for drafting comms?",
+      "options": [
+        "Send the first draft directly when the message is internally generated.",
+        "Use AI for a draft, then review tone, facts, approvals, and audience fit.",
+        "Limit AI to headings and subject lines so factual risk stays minimal.",
+        "Skip review for low-effort messages so speed benefits are preserved."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "What should you do when AI confidence seems high but evidence is weak?",
+      "options": [
+        "Trust the confident wording if the response is clear and well structured.",
+        "Increase the urgency in the prompt and publish once the tone improves.",
+        "Ask for verification steps, sources, assumptions, or independent checks.",
+        "Repeat the same prompt with stronger wording until the answer stabilises."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 17,
+      "text": "Which statement about AI and jobs is most accurate?",
+      "options": [
+        "AI will immediately replace most knowledge work without role redesign.",
+        "AI changes task mixes, often augmenting roles and shifting skill needs.",
+        "AI mainly affects software engineering and leaves business roles unchanged.",
+        "AI has little workflow impact unless teams build their own models."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "text": "What is an effective way to build AI capability in teams?",
+      "options": [
+        "A one-off announcement email explaining that approved tools are available.",
+        "A tool rollout with account access but few examples or workflow changes.",
+        "Use-case playbooks, practical training, support, and measurable pilots.",
+        "Blocking experimentation until every possible governance issue is solved."
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 19,
+      "text": "When should an AI output be treated as high risk?",
+      "options": [
+        "When it affects policy, legal exposure, money, safety, or commitments.",
+        "When it contains bullet points that could be reused in presentations.",
+        "When it is shorter than expected and may require additional context.",
+        "When it references meeting notes from a recent internal discussion."
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 20,
+      "text": "What is a mature AI operating model aiming for?",
+      "options": [
+        "Maximum novelty and adoption speed, even if controls mature later.",
+        "Minimal experimentation until vendor and regulatory uncertainty disappears.",
+        "Central approval for every prompt, output, pilot, and user workflow.",
+        "Balanced speed, quality, safety, accountability, and clear ownership."
+      ],
+      "answerIndex": 3
+    }
+  ]
+}

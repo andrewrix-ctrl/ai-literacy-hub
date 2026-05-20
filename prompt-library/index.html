@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Library | AI Literacy Hub</title>
+  <link rel="stylesheet" href="lab.css" />
+</head>
+<body>
+  <header class="site-header lab-header">
+    <div class="container">
+      <p class="eyebrow">Created by Diego Claw</p>
+      <h1>Prompt Practice Lab</h1>
+      <p class="tagline">Twelve guided LLM prompts that move from everyday productivity to RAG and agent design.</p>
+    </div>
+  </header>
+
+  <main class="container lab-shell">
+    <nav class="page-nav" aria-label="Training pages">
+      <a href="/ai-literacy-hub/">Back to AI Literacy Hub</a>
+    </nav>
+
+    <section class="lab-intro" aria-labelledby="lab-intro-heading">
+      <div>
+        <h2 id="lab-intro-heading">Complete each prompt to unlock the next one.</h2>
+        <p>
+          Copy the prompt into your preferred LLM, run the exercise, capture your notes, then mark it complete.
+          Your progress and notes are saved in this browser.
+        </p>
+        <div class="resource-card">
+          <div>
+            <span class="step-label">Training file</span>
+            <strong>Project Atlas enterprise transformation brief</strong>
+            <p>Use this document for the RAG and Copilot Agent Builder activities near the end of the lab.</p>
+          </div>
+          <a class="download-link" href="assets/project-atlas-rag-training.docx" download>Download DOCX</a>
+        </div>
+      </div>
+      <div class="progress-panel" aria-live="polite">
+        <span class="progress-label">Progress</span>
+        <strong id="progress-count">0 of 12 complete</strong>
+        <div class="progress-track" aria-hidden="true">
+          <span id="progress-bar"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="prompt-list" id="prompt-list" aria-label="Prompt exercises"></section>
+
+    <section class="final-panel locked" id="final-panel" aria-labelledby="final-heading">
+      <div>
+        <p class="eyebrow">Final review</p>
+        <h2 id="final-heading">Print your notes</h2>
+        <p>Once all prompts are complete, print a clean summary of your notes for reflection or coaching.</p>
+      </div>
+      <button class="primary-action" id="print-notes" type="button" disabled>Print notes</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Created by Diego Claw</p>
+    </div>
+  </footer>
+
+  <script>
+    const prompts = [
+      {
+        title: "Clarify a messy request",
+        category: "Day-to-day tasks",
+        level: "Beginner",
+        prompt: `Act as a careful work assistant. I will give you a messy request or half-formed idea. First, restate what you think I need in plain English. Then list the missing information as questions. Finally, give me a clean next-action checklist.\n\nMessy request:\n[Paste the request here]`
+      },
+      {
+        title: "Turn notes into an action plan",
+        category: "Day-to-day tasks",
+        level: "Beginner",
+        prompt: `Convert the notes below into a practical action plan. Group actions by owner, deadline, and dependency. Highlight unclear items and suggest the next conversation needed to resolve them.\n\nNotes:\n[Paste notes here]`
+      },
+      {
+        title: "Write a stakeholder update",
+        category: "Day-to-day tasks",
+        level: "Beginner",
+        prompt: `Draft a concise stakeholder update from the information below. Use this structure: current status, what changed, risks or blockers, decisions needed, next steps. Keep the tone professional and direct.\n\nContext:\n[Paste context here]`
+      },
+      {
+        title: "Compare options with trade-offs",
+        category: "Decision support",
+        level: "Beginner",
+        prompt: `Help me compare these options. Create a table with benefits, risks, cost or effort, dependencies, and best-fit scenario. End with a recommendation and the assumptions behind it.\n\nDecision:\n[Describe the decision]\n\nOptions:\n[List options]`
+      },
+      {
+        title: "Map a current workflow",
+        category: "Redefining workflows",
+        level: "Intermediate",
+        prompt: `Act as a business process analyst. Map the workflow below into steps, inputs, outputs, handoffs, systems used, pain points, and rework loops. Then identify the three highest-value opportunities for AI assistance.\n\nWorkflow:\n[Describe the workflow]`
+      },
+      {
+        title: "Redesign a workflow with AI",
+        category: "Redefining workflows",
+        level: "Intermediate",
+        prompt: `Redesign this workflow using AI as a practical assistant, not a magic replacement. For each step, show what humans do, what AI does, required data, approval points, risks, and a simple pilot version we could test in two weeks.\n\nCurrent workflow:\n[Paste workflow]`
+      },
+      {
+        title: "Use AI as a thought partner",
+        category: "Thought partner",
+        level: "Intermediate",
+        prompt: `Act as my thought partner. Challenge my idea constructively. Identify weak assumptions, missing stakeholders, unintended consequences, and better alternatives. Ask up to five sharp questions before giving advice.\n\nIdea:\n[Paste idea]`
+      },
+      {
+        title: "Run a pre-mortem",
+        category: "Thought partner",
+        level: "Intermediate",
+        prompt: `Run a pre-mortem for this initiative. Assume it failed six months from now. List the most likely reasons, early warning signs, prevention actions, and recovery actions. Separate technical, people, process, and governance risks.\n\nInitiative:\n[Describe initiative]`
+      },
+      {
+        title: "Design a reusable prompt pattern",
+        category: "Prompt engineering",
+        level: "Intermediate",
+        prompt: `Create a reusable prompt pattern for the task below. Include role, context, inputs, constraints, output format, quality checks, and examples of good and poor inputs. Then provide a final copy-ready prompt template.\n\nTask:\n[Describe recurring task]`
+      },
+      {
+        title: "Plan a RAG assistant for Project Atlas",
+        category: "RAG",
+        level: "Advanced",
+        prompt: `Use the Project Atlas enterprise transformation brief as the source document.\n\nAct as a solution architect designing a retrieval-augmented generation assistant for Project Atlas stakeholders. The assistant should help users ask grounded questions about delivery performance, collaboration issues, reporting fragmentation, Jira, ServiceNow, SAP, SharePoint, Copilot-assisted reporting, governance, risks, pilot insights, stakeholder perspectives, and the future-state vision.\n\nCreate a RAG design covering:\n1. Primary users and their top questions\n2. Knowledge-source preparation for the Project Atlas DOCX\n3. Chunking approach and useful metadata fields\n4. Retrieval strategy for executive, delivery, finance, governance, and change-management questions\n5. Answer format with citations or evidence references\n6. Permissions or access assumptions\n7. Failure handling when the document does not contain enough evidence\n8. Five example questions users should test first\n\nEnd with a short implementation checklist.`
+      },
+      {
+        title: "Evaluate Project Atlas RAG answers",
+        category: "RAG",
+        level: "Advanced",
+        prompt: `Use the Project Atlas enterprise transformation brief as the only trusted source.\n\nCreate an evaluation plan for a RAG assistant that answers questions about Project Atlas. Include:\n1. Ten test questions that cover executive overview, current state, root causes, objectives, solution architecture, roadmap, financials, risks, pilot insights, governance, open questions, and future-state vision\n2. The evidence each answer should retrieve from the document\n3. Pass or fail criteria for groundedness, completeness, and usefulness\n4. Hallucination checks for facts not present in the brief\n5. Citation or source-reference checks\n6. A rule for when the assistant should say it does not know\n7. A scoring rubric from 1 to 5\n\nReturn the evaluation plan as a table, then list the three highest-risk failure modes.`
+      },
+      {
+        title: "Build a Project Atlas agent in Copilot Agent Builder",
+        category: "Copilot Agent Builder",
+        level: "Advanced",
+        prompt: `You are helping me create a Microsoft Copilot Agent Builder agent using the Project Atlas enterprise transformation brief as the uploaded knowledge file.\n\nDesign the agent setup for me. Include:\n1. A clear agent name and purpose\n2. The exact system prompt/instructions the agent should use\n3. What the agent should and should not answer\n4. How the agent should use the uploaded Project Atlas file as its grounding source\n5. Starter prompts for users, including executive, delivery team, change manager, and data/governance perspectives\n6. Conversation flow for answering a user question, asking clarifying questions, citing evidence, and escalating uncertainty\n7. Security, privacy, and responsible-AI guardrails\n8. A test checklist before launch\n\nThe agent should help users understand Project Atlas, generate grounded summaries, identify risks, prepare stakeholder briefings, and explore implementation decisions without inventing facts outside the uploaded file.`
+      }
+    ];
+
+    const stateKey = "promptLabProjectAtlasState";
+    const levelClass = { Beginner: "level-beginner", Intermediate: "level-intermediate", Advanced: "level-advanced" };
+    let state = loadState();
+
+    function loadState() {
+      const fallback = prompts.map(() => ({ complete: false, notes: "" }));
+      try {
+        const saved = JSON.parse(localStorage.getItem(stateKey));
+        if (!Array.isArray(saved)) return fallback;
+        return prompts.map((_, index) => ({
+          complete: Boolean(saved[index]?.complete),
+          notes: saved[index]?.notes || ""
+        }));
+      } catch {
+        return fallback;
+      }
+    }
+
+    function saveState() {
+      localStorage.setItem(stateKey, JSON.stringify(state));
+    }
+
+    function firstIncompleteIndex() {
+      const index = state.findIndex((item) => !item.complete);
+      return index === -1 ? prompts.length : index;
+    }
+
+    function isUnlocked(index) {
+      return index <= firstIncompleteIndex();
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, (character) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[character]);
+    }
+
+    async function copyText(value) {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(value);
+        return;
+      }
+
+      const helper = document.createElement("textarea");
+      helper.value = value;
+      helper.setAttribute("readonly", "");
+      helper.style.position = "fixed";
+      helper.style.top = "-9999px";
+      document.body.appendChild(helper);
+      helper.select();
+      const copied = document.execCommand("copy");
+      helper.remove();
+      if (!copied) throw new Error("Copy command failed");
+    }
+
+    function renderPrompts() {
+      const list = document.getElementById("prompt-list");
+      list.innerHTML = "";
+      const visibleUntil = firstIncompleteIndex();
+
+      prompts.forEach((item, index) => {
+        if (index > visibleUntil) return;
+
+        const unlocked = isUnlocked(index);
+        const article = document.createElement("article");
+        article.className = `prompt-card ${state[index].complete ? "is-complete" : ""}`;
+
+        article.innerHTML = `
+          <div class="prompt-card-header">
+            <div>
+              <span class="step-label">Prompt ${index + 1}</span>
+              <h3>${escapeHtml(item.title)}</h3>
+            </div>
+            <div class="tag-row">
+              <span class="tag">${escapeHtml(item.category)}</span>
+              <span class="tag ${levelClass[item.level]}">${escapeHtml(item.level)}</span>
+            </div>
+          </div>
+          <div class="prompt-body">
+            <pre>${escapeHtml(item.prompt)}</pre>
+          </div>
+          <div class="prompt-actions">
+            <button type="button" class="copy-button" data-index="${index}" ${unlocked ? "" : "disabled"}>Copy prompt</button>
+            <label class="complete-control">
+              <input type="checkbox" data-index="${index}" ${state[index].complete ? "checked" : ""} ${unlocked ? "" : "disabled"} />
+              Mark complete
+            </label>
+          </div>
+          <label class="notes-label" for="notes-${index}">Notes</label>
+          <textarea id="notes-${index}" data-index="${index}" placeholder="Record observations, outputs, improvements, or follow-up actions.">${escapeHtml(state[index].notes)}</textarea>
+        `;
+
+        list.appendChild(article);
+      });
+
+      bindEvents();
+      updateProgress();
+    }
+
+    function bindEvents() {
+      document.querySelectorAll(".copy-button").forEach((button) => {
+        button.addEventListener("click", async (event) => {
+          const index = Number(event.currentTarget.dataset.index);
+          try {
+            await copyText(prompts[index].prompt);
+            event.currentTarget.textContent = "Copied";
+            setTimeout(() => {
+              event.currentTarget.textContent = "Copy prompt";
+            }, 1400);
+          } catch {
+            event.currentTarget.textContent = "Copy failed";
+          }
+        });
+      });
+
+      document.querySelectorAll(".complete-control input").forEach((checkbox) => {
+        checkbox.addEventListener("change", (event) => {
+          const index = Number(event.currentTarget.dataset.index);
+          state[index].complete = event.currentTarget.checked;
+          if (!event.currentTarget.checked) {
+            for (let next = index + 1; next < state.length; next += 1) {
+              state[next].complete = false;
+            }
+          }
+          saveState();
+          renderPrompts();
+        });
+      });
+
+      document.querySelectorAll("textarea").forEach((textarea) => {
+        textarea.addEventListener("input", (event) => {
+          const index = Number(event.currentTarget.dataset.index);
+          state[index].notes = event.currentTarget.value;
+          saveState();
+        });
+      });
+    }
+
+    function updateProgress() {
+      const complete = state.filter((item) => item.complete).length;
+      const percentage = (complete / prompts.length) * 100;
+      document.getElementById("progress-count").textContent = `${complete} of ${prompts.length} complete`;
+      document.getElementById("progress-bar").style.width = `${percentage}%`;
+
+      const finalPanel = document.getElementById("final-panel");
+      const printButton = document.getElementById("print-notes");
+      const finished = complete === prompts.length;
+      finalPanel.classList.toggle("locked", !finished);
+      printButton.disabled = !finished;
+    }
+
+    document.getElementById("print-notes").addEventListener("click", () => {
+      window.print();
+    });
+
+    renderPrompts();
+  </script>
+</body>
+</html>

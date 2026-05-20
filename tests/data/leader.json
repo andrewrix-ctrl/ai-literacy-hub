@@ -1,0 +1,229 @@
+{
+  "slug": "leader",
+  "title": "Leader / Manager",
+  "emoji": "📈",
+  "audience": "People leaders, program managers, and executives.",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is a primary consideration for a leader when evaluating an AI solution for their team?",
+      "options": [
+        "The vendor relationship model and support approach used during rollout.",
+        "The potential impact on team workflows, productivity, and ethical implications.",
+        "The ability to produce impressive demos without improving team decisions.",
+        "The total lines of code in the AI's programming for responsible organisation-wide transformation."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "What is the main benefit of encouraging AI literacy among team members?",
+      "options": [
+        "It ensures everyone can code AI algorithms as part of strategic leadership and governance.",
+        "It fosters better understanding, adoption, and ethical use of AI tools and strategies.",
+        "It makes the team's computers run faster for responsible organisation-wide transformation.",
+        "It reduces the need for human managers when guiding enterprise AI adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "From a leadership perspective, what does \"AI adoption\" primarily refer to?",
+      "options": [
+        "The training process used to tune model behaviour before production use while balancing value, risk, and workforce change.",
+        "The successful integration and utilization of AI technologies within an organization's operations and strategies.",
+        "Legally adopting an AI as a member of the team when guiding enterprise AI adoption.",
+        "Selecting the lowest-cost AI tool before confirming fit, controls, and adoption needs."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "What is a common pitfall for leaders when first introducing AI tools to their teams?",
+      "options": [
+        "Over-communicating the benefits for responsible organisation-wide transformation.",
+        "Failing to address concerns about job displacement or lack of new skills.",
+        "Investing too little in AI development as part of strategic leadership and governance.",
+        "Not celebrating AI successes enough while balancing value, risk, and workforce change."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 5,
+      "text": "What does \"AI-driven decision making\" mean for a manager?",
+      "options": [
+        "AI makes all decisions autonomously without human input when guiding enterprise AI adoption.",
+        "AI provides insights and recommendations that inform human decisions, augmenting human capabilities.",
+        "Managers must always agree with the AI's suggestions while balancing value, risk, and workforce change.",
+        "It replaces the need for human judgment entirely for responsible organisation-wide transformation."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "Why is a clear \"AI strategy\" important for an organization's leadership?",
+      "options": [
+        "To demonstrate technical sophistication without proving business or governance value.",
+        "To align AI investments with business goals, manage risks, and guide responsible implementation.",
+        "To exclusively focus on short-term AI wins for responsible organisation-wide transformation within the same leadership decision context.",
+        "To outsource all AI development to external vendors when guiding enterprise AI adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 7,
+      "text": "What is \"upskilling\" in the context of AI implementation?",
+      "options": [
+        "Promoting employees to higher positions automatically with AI while balancing value, risk, and workforce change.",
+        "Providing training to employees to acquire new skills necessary to work effectively with AI technologies.",
+        "Making AI models more powerful when guiding enterprise AI adoption.",
+        "Reducing the number of skills required for a job as part of strategic leadership and governance."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "When managing a project involving AI, what is \"risk mitigation\" primarily focused on?",
+      "options": [
+        "Eliminating all risks completely from the project for responsible organisation-wide transformation within the same leadership decision context.",
+        "Identifying, assessing, and implementing strategies to reduce the likelihood or impact of potential negative outcomes.",
+        "Ignoring risks to speed up AI development as part of strategic leadership and governance.",
+        "Transferring all risks to the AI team while balancing value, risk, and workforce change."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 9,
+      "text": "What is the concept of \"human-in-the-loop\" (HITL) AI, and why is it crucial for managers?",
+      "options": [
+        "AI systems that are designed to look like humans when guiding enterprise AI adoption.",
+        "An approach that integrates human oversight and intervention into AI decision-making processes, particularly for critical or sensitive tasks.",
+        "AI models that can learn directly from human thought while balancing value, risk, and workforce change within the same leadership decision context.",
+        "AI software that is easy for humans to install for responsible organisation-wide transformation."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "What are \"explainable AI\" (XAI) capabilities important for leaders in regulated industries?",
+      "options": [
+        "To help the AI explain complex technical concepts as part of strategic leadership and governance.",
+        "To demonstrate transparency, auditability, and compliance by providing insight into how AI models arrive at their conclusions.",
+        "To make AI systems run faster and more efficiently for responsible organisation-wide transformation within the same leadership decision context.",
+        "To reduce the cost of AI model development when guiding enterprise AI adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "How might \"AI bias\" (e.g., in hiring algorithms) impact an organization from a leadership perspective?",
+      "options": [
+        "It can lead to more efficient decision-making while balancing value, risk, and workforce change.",
+        "It can result in unfair outcomes, legal challenges, reputational damage, and a loss of trust.",
+        "It always highlights the best candidates for a job when guiding enterprise AI adoption.",
+        "It speeds up the hiring process significantly without drawbacks as part of strategic leadership and governance."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 12,
+      "text": "What is a \"Center of Excellence\" (CoE) for AI, and what value does it bring to an organization?",
+      "options": [
+        "A physical building where all AI developers work for responsible organisation-wide transformation.",
+        "A dedicated team or function that fosters best practices, shared resources, and expertise in AI across the organization to drive consistent adoption and innovation.",
+        "A specialized AI model for optimizing organizational excellence as part of strategic leadership and governance within the same leadership decision context.",
+        "A certification program for AI professionals while balancing value, risk, and workforce change."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 13,
+      "text": "When implementing AI, what is meant by \"organizational change management\"?",
+      "options": [
+        "Automatically changing organizational structures with AI when guiding enterprise AI adoption.",
+        "A structured approach to transitioning individuals, teams, and organizations from their current state to a future AI-enabled state.",
+        "Changing AI algorithms to fit organizational needs while balancing value, risk, and workforce change.",
+        "Managing the financial changes associated with AI investments for responsible organisation-wide transformation within the same leadership decision context."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 14,
+      "text": "What is \"responsible AI\" as a strategic imperative for leaders?",
+      "options": [
+        "Ensuring AI only delivers positive business outcomes as part of strategic leadership and governance within the same leadership decision context.",
+        "Developing and deploying AI systems in a way that respects ethical principles, human rights, and societal well-being.",
+        "Delegating all ethical decisions to the AI for responsible organisation-wide transformation.",
+        "Minimizing the cost of AI development at all costs when guiding enterprise AI adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "Which of these best describes \"AI ethics by design\" at a strategic level?",
+      "options": [
+        "A process where ethical considerations are only reviewed after AI models are built while balancing value, risk, and workforce change within the same leadership decision context.",
+        "Proactively embedding ethical principles, values, and safeguards into every stage of the AI system's lifecycle, from conception to deployment.",
+        "Delegating ethical decision-making to the AI system itself when guiding enterprise AI adoption.",
+        "Ensuring generated content is polished and consistent with brand presentation."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "How can leaders establish effective \"AI governance\" within their organization?",
+      "options": [
+        "By allowing individual teams to implement AI without central oversight for responsible organisation-wide transformation within the same leadership decision context.",
+        "By creating clear policies, frameworks, and accountability structures that guide the ethical and compliant development and deployment of AI.",
+        "By banning all AI implementations that carry any risk as part of strategic leadership and governance.",
+        "By exclusively focusing on AI technical performance metrics while balancing value, risk, and workforce change."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 17,
+      "text": "What is the concept of \"AI-augmented workforce\" versus \"AI-replaced workforce\"?",
+      "options": [
+        "AI-augmented means AI does all the work; AI-replaced means humans are still involved when guiding enterprise AI adoption within the same leadership decision context.",
+        "AI-augmented means AI enhances human capabilities; AI-replaced means AI automates tasks entirely, potentially displacing human roles. Leaders manage this transition.",
+        "AI-augmented is for junior roles; AI-replaced is for senior roles while balancing value, risk, and workforce change.",
+        "AI-augmented is a temporary phase; AI-replaced is the final state for responsible organisation-wide transformation."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 18,
+      "text": "When setting AI project KPIs (Key Performance Indicators), what is a \"North Star Metric\" (NSM) and why is it relevant for strategic alignment?",
+      "options": [
+        "A metric that measures how many AI models are deployed as part of strategic leadership and governance.",
+        "A single, critical metric that best captures the core value your AI solution delivers to customers and the business, guiding strategic priorities.",
+        "A metric that tracks the performance of individual AI developers for responsible organisation-wide transformation within the same leadership decision context.",
+        "A metric used only in the initial piloting phase when guiding enterprise AI adoption."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 19,
+      "text": "What is \"AI portfolio management\" from an executive perspective?",
+      "options": [
+        "Managing a set of creative AI experiments without linking them to business strategy.",
+        "Strategically evaluating, prioritizing, and allocating resources across multiple AI initiatives to ensure alignment with overall business objectives and risk tolerance.",
+        "Outsourcing all AI projects to external companies when guiding enterprise AI adoption.",
+        "A financial strategy for investing in AI startups as part of strategic leadership and governance within the same leadership decision context."
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "Why is \"change leadership\" particularly critical when introducing transformative AI in an organization?",
+      "options": [
+        "To ensure AI systems are not changed once deployed for responsible organisation-wide transformation.",
+        "To proactively guide stakeholders through the impact of AI adoption, manage resistance, and foster a culture of learning and adaptation.",
+        "To delegate leadership communication to AI without stakeholder engagement.",
+        "To implement AI purely for cost-cutting without considering human factors while balancing value, risk, and workforce change within the same leadership decision context."
+      ],
+      "answerIndex": 1
+    }
+  ]
+}
