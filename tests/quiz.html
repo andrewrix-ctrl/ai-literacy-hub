@@ -20,8 +20,17 @@
     <a class="back-link" href="/ai-literacy-hub/tests/">Back to AI Literacy Tests</a>
 
     <section class="quiz-header">
-      <h1 id="quizTitle">Loading...</h1>
-      <p id="quizAudience"></p>
+      <div class="quiz-header-top">
+        <div>
+          <h1 id="quizTitle">Loading...</h1>
+          <p id="quizAudience"></p>
+        </div>
+        <div id="timerWrap" class="timer-wrap" style="display:none;">
+          <span class="timer-icon">⏱</span>
+          <span id="timerDisplay" class="timer-display">30:00</span>
+          <span class="timer-label">remaining</span>
+        </div>
+      </div>
       <div class="progress-wrap">
         <div id="progressBar" class="progress-bar"></div>
       </div>
@@ -54,6 +63,27 @@
       </div>
     </section>
   </main>
+
+  <!-- Certificate modal -->
+  <div id="certModal" class="cert-modal-overlay" aria-hidden="true">
+    <div class="cert-modal" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+      <div class="cert-modal-header">
+        <span class="cert-modal-icon">🎓</span>
+        <h2 id="certModalTitle">Personalise your certificate</h2>
+        <p>Your name and organisation will appear on your downloadable certificate.</p>
+      </div>
+      <div class="cert-form">
+        <label for="certName">Full name <span class="required">*</span></label>
+        <input type="text" id="certName" placeholder="e.g. Jane Smith" autocomplete="name" />
+        <label for="certCompany">Organisation <span class="cert-optional">(optional)</span></label>
+        <input type="text" id="certCompany" placeholder="e.g. Acme Corp" autocomplete="organization" />
+      </div>
+      <div class="cert-modal-actions">
+        <button id="certGenerateBtn" class="btn">Generate &amp; Download →</button>
+        <button id="certCancelBtn" class="btn btn-ghost">Cancel</button>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
   <script src="/ai-literacy-hub/tests/assets/quiz.js"></script>
